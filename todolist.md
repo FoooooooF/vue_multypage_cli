@@ -1,11 +1,11 @@
 #  vue webapck build todolist
-- 需要babel-loader √
+- 需要babel-loader转译ES6 √
   - (js加入babel babel-laoder babel-preset-2015 babel-preset-stag3  babel-preset-env)
     ```
-    npm install babel-loader babel-core babel-preset-env webpack
+    npm install babel-loader babel-core babel-preset-env
     ```
 - 打包文件路径控制
-- url-loader使用 替换file-loader √
+-使用 url-loader 替换file-loader √
   - url-loader 包含了file-loader,直接替换为url-loader 
   - remove "file-loader": "^3.0.1"
 - 加载vue文件 vue-loader √
