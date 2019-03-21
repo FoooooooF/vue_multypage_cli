@@ -21,6 +21,10 @@
         }
     }
     ```
+## 下一步主要工作
+- 使用 CommonsChunkPlugin 抽取公共模块进行打包 
+- 使用tree shaking 精简打包大小
+- 优化构建速度和提示
 
 
 
